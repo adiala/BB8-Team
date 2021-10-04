@@ -1,0 +1,16 @@
+@use "../custom" as *;
+
+.btn-menu {
+  position: relative;
+  width: 135px;
+  height: 37.6px;
+  color: $white;
+  background-color: $primary;
+  font-weight: 500;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $button-hover;
+    color: $primary;
+  }
+}

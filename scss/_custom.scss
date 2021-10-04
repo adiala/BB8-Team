@@ -1,0 +1,25 @@
+//google font
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+//my theme color
+$dark-gray: #3b3b3b;
+$light-yellow: #f7b633;
+$orange: #f97d26;
+$light-orange: #fde5ca;
+$dark-orange: #fc4a1a;
+
+//white and gray colors
+$white: #fff;
+$gray: #515151;
+$light-gray: #7c7c7c;
+$black: #000;
+
+$primary: $orange;
+$button-hover: $light-orange;
+
+//theme font
+$font-family-base: "Roboto", sans-serif;
+$font-family-card: "Nunito", sans-serif;
+
+//import bootstrap5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,93 @@
+@use "../custom" as *;
+
+$writing-color: #be49e8;
+$grafic-color: #5398e9;
+$software-color: #2bbc5d;
+
+.card {
+  position: relative;
+  max-width: 394px;
+  height: 390px;
+  border: 2px solid;
+  border-radius: 15px;
+  font-family: $font-family-card;
+
+  &--writing {
+    border-color: $writing-color;
+    color: $writing-color;
+  }
+  &--graphic {
+    border-color: $grafic-color;
+    color: $grafic-color;
+  }
+  &--software {
+    border-color: $software-color;
+    color: $software-color;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    color: $light-gray;
+  }
+}
+
+.icon {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  top: 15px;
+  right: 31px;
+  border-radius: 25%;
+  z-index: 0;
+
+  img {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 14px;
+    left: 14px;
+  }
+
+  &--writing {
+    background-color: #EECFF9;
+  }
+
+  &--graphic {
+    background-color: #D2E4F9;
+  }
+
+  &--software {
+    background-color: #C6EED4;
+  }
+
+ 
+}
+
+.card-title {
+  position: absolute;
+  left: 41px;
+  top: 23px;
+  line-height: 50px;
+
+  &--graphic {
+    width: 234px;
+  }
+
+  &--software {
+    width: 322px;
+  }
+}
+
+.card-description {
+  position: absolute;
+  width: 311px;
+  height: 214px;
+  top: 141px;
+  left: 41px;
+}

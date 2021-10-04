@@ -1,0 +1,54 @@
+@use "../custom" as *;
+
+.display-1 {
+  margin-bottom: 32px;
+
+  &--intro {
+    display: inline-block;
+    color: #f8982c;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 117px;
+  }
+
+  &--description {
+    display: block;
+    color: $light-gray;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 50px;
+  }
+}
+
+.display-2 {
+
+  text-align: center;
+  color:$gray;
+
+  &--companies {
+    display: block;
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  &--description {
+    display: inline-block;
+    width: 658px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.28px;
+  }
+
+}
+
+.display-3 {
+  text-align: center;
+  color: #f8982c;
+  padding-bottom: 93px;
+
+  &--title {
+    font-weight: 500;
+    font-size: 80px;
+  }
+}
