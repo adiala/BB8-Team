@@ -11401,6 +11401,25 @@ footer .footer-left--menu {
 footer .footer-left--menu :first-child {
   margin-bottom: 10px;
 }
+footer .footer-right {
+  color: #fff;
+  padding-top: 10px;
+}
+footer .footer-right--title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+}
+footer .footer-right--phone {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29.3px;
+}
+footer .footer-right--address {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}
 footer .copyright {
   font-weight: 500;
   line-height: 17.6px;

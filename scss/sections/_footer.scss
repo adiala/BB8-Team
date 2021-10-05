@@ -9,8 +9,8 @@ footer {
     padding-top: 10px;
 
     a {
-        text-decoration: none;
-        color: $white;
+      text-decoration: none;
+      color: $white;
     }
 
     &--title {
@@ -35,6 +35,29 @@ footer {
       :first-child {
         margin-bottom: 10px;
       }
+    }
+  }
+
+  .footer-right {
+    color: $white;
+    padding-top: 10px;
+
+    &--title {
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 41px;
+    }
+
+    &--phone {
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 29.3px;
+    }
+
+    &--address {
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 40px;
     }
   }
 
