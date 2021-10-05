@@ -11187,7 +11187,7 @@ body {
   position: relative;
   max-width: 394px;
   height: 390px;
-  border: 2px solid;
+  border: 1px solid;
   border-radius: 15px;
   font-family: "Nunito", sans-serif;
 }
@@ -11366,6 +11366,47 @@ body {
 }
 .testimonials-section span {
   max-width: 650px;
+}
+
+footer {
+  background-color: #f8982c;
+  margin-top: 134px;
+}
+footer .footer-left {
+  color: #fff;
+  padding-top: 10px;
+}
+footer .footer-left a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer-left--title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  margin-bottom: 10px;
+}
+footer .footer-left--lead {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+}
+footer .footer-left--menu {
+  padding-top: 38px;
+  padding-left: 0;
+  list-style: none;
+  font-weight: 400;
+  font-size: 25px;
+}
+footer .footer-left--menu :first-child {
+  margin-bottom: 10px;
+}
+footer .copyright {
+  font-weight: 500;
+  line-height: 17.6px;
+  text-align: center;
+  color: #fff;
+  padding-top: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+@use "../custom" as *;
+
+footer {
+  background-color: #f8982c;
+  margin-top: 134px;
+
+  .footer-left {
+    color: $white;
+    padding-top: 10px;
+
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+
+    &--title {
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 55px;
+      margin-bottom: 10px;
+    }
+
+    &--lead {
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 47px;
+    }
+
+    &--menu {
+      padding-top: 38px;
+      padding-left: 0;
+      list-style: none;
+      font-weight: 400;
+      font-size: 25px;
+      :first-child {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .copyright {
+    font-weight: 500;
+    line-height: 17.6px;
+    text-align: center;
+    color: $white;
+    padding-top: 25px;
+  }
+}
