@@ -19,17 +19,29 @@
     line-height: 50px;
     margin-top: 50px;
   }
+
+  @include media-breakpoint-down(sm) {
+    &--intro {
+      font-size: 55px;
+      line-height: 64.45px;
+    }
+
+    &--description {
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 30px;
+    }
+  }
 }
 
 .display-2 {
-
   text-align: center;
-  color:$gray;
+  color: $gray;
 
   &--companies {
     display: block;
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   &--description {
@@ -40,6 +52,19 @@
     line-height: 27.28px;
   }
 
+  @include media-breakpoint-down(sm) {
+    &--companies {
+      font-size: 30px;
+      color: #f8982c;
+      line-height: 35.16px;
+    }
+
+    &--description {
+      font-size: 10px;
+      line-height: 13.64px;
+      margin-top: 10px;
+    }
+  }
 }
 
 .display-3 {
@@ -56,5 +81,19 @@
     font-size: 60px;
     line-height: 70px;
   }
+  @include media-breakpoint-down(sm) {
 
+    padding-bottom: 30px;
+
+    &--title {
+      font-size: 40px;
+      line-height: 46.88px;
+    }
+
+    &--testimonials-title {
+      font-size: 35px;
+      line-height: 41px;
+      margin-top: 10px;
+    }
+  }
 }

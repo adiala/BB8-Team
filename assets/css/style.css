@@ -11151,6 +11151,17 @@ body {
   line-height: 50px;
   margin-top: 50px;
 }
+@media (max-width: 575.98px) {
+  .display-1--intro {
+    font-size: 55px;
+    line-height: 64.45px;
+  }
+  .display-1--description {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+}
 
 .display-2 {
   text-align: center;
@@ -11159,7 +11170,7 @@ body {
 .display-2--companies {
   display: block;
   font-size: 60px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .display-2--description {
   display: inline-block;
@@ -11167,6 +11178,18 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 27.28px;
+}
+@media (max-width: 575.98px) {
+  .display-2--companies {
+    font-size: 30px;
+    color: #f8982c;
+    line-height: 35.16px;
+  }
+  .display-2--description {
+    font-size: 10px;
+    line-height: 13.64px;
+    margin-top: 10px;
+  }
 }
 
 .display-3 {
@@ -11181,6 +11204,20 @@ body {
   display: inline-block;
   font-size: 60px;
   line-height: 70px;
+}
+@media (max-width: 575.98px) {
+  .display-3 {
+    padding-bottom: 30px;
+  }
+  .display-3--title {
+    font-size: 40px;
+    line-height: 46.88px;
+  }
+  .display-3--testimonials-title {
+    font-size: 35px;
+    line-height: 41px;
+    margin-top: 10px;
+  }
 }
 
 .card {
@@ -11352,9 +11389,25 @@ body {
   font-size: 40px;
   padding-top: 100px;
 }
+@media (max-width: 575.98px) {
+  .intro-section {
+    padding: 40px 23px 0 23px;
+  }
+  .intro-section img {
+    display: none;
+  }
+  .intro-section span i {
+    display: none;
+  }
+}
 
 .companies-section {
   padding: 70px 0 0 0;
+}
+@media (max-width: 575.98px) {
+  .companies-section {
+    padding: 100px 12px 0 12px;
+  }
 }
 
 .products-section {

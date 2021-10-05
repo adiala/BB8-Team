@@ -1,16 +1,27 @@
 @use "../custom" as *;
 
 .intro-section {
-    padding: 88px 0 0 0;
+  padding: 88px 0 0 0;
+
+  span {
+    i {
+      color: $primary;
+      font-size: 40px;
+      padding-top: 100px;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding: 40px 23px 0 23px;
+    
+    img {
+      display: none;
+    } 
 
     span {
-        i {
-          color: $primary;
-          font-size: 40px;
-          padding-top: 100px;
-        }
+      i {
+        display: none;
       }
-
+    }
+  }
 }
-
-

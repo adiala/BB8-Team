@@ -1,5 +1,9 @@
 @use "../custom" as *;
 
 .companies-section {
-    padding: 70px 0 0 0;
+  padding: 70px 0 0 0;
+
+  @include media-breakpoint-down(sm) {
+    padding: 100px 12px 0 12px;
+  }
 }
