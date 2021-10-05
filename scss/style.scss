@@ -1,13 +1,15 @@
-@use 'custom';
+@use "custom";
 
 // Import Components
-@use 'components/buttons';
-@use 'components/mixins';
-@use 'components/typo';
-@use 'components/product-card';
+@use "components/buttons";
+@use "components/mixins";
+@use "components/typo";
+@use "components/product-card";
+@use "components/testimonial-card";
 
 //import sections
-@use 'sections/navbar';
-@use 'sections/intro-section';
-@use 'sections/companies-section';
-@use 'sections/products-section';
+@use "sections/navbar";
+@use "sections/intro-section";
+@use "sections/companies-section";
+@use "sections/products-section";
+@use "sections/testimonials-section";

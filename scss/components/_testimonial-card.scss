@@ -1,0 +1,34 @@
+@use "../custom" as *;
+
+.testimonial-card {
+  position: relative;
+  max-width: 394px;
+  height: 280px;
+  border-radius: 20px;
+  border: 1px solid $primary;
+}
+
+.quotes {
+  position: absolute;
+  top: -40px;
+  left: -10px;
+}
+
+.testimonial-description {
+    padding: 64.95px 21.66px 0 31.25px;
+    color: #3B3B3B;
+
+  .text {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .signature {
+      text-align: right;
+      font-weight: 400;
+      line-height: 29px;
+      font-size: 25px;
+  }
+}

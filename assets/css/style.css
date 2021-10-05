@@ -11115,6 +11115,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background: url(../../images/dots-8px.png);
+}
+
 .btn-menu {
   position: relative;
   width: 135px;
@@ -11159,20 +11163,24 @@ textarea.form-control-lg {
 }
 .display-2--description {
   display: inline-block;
-  width: 658px;
+  max-width: 658px;
   font-size: 20px;
   font-weight: 400;
   line-height: 27.28px;
 }
 
 .display-3 {
-  text-align: center;
   color: #f8982c;
+  font-weight: 500;
   padding-bottom: 93px;
 }
 .display-3--title {
-  font-weight: 500;
   font-size: 80px;
+}
+.display-3--testimonials-title {
+  display: inline-block;
+  font-size: 60px;
+  line-height: 70px;
 }
 
 .card {
@@ -11252,6 +11260,37 @@ textarea.form-control-lg {
   left: 41px;
 }
 
+.testimonial-card {
+  position: relative;
+  max-width: 394px;
+  height: 280px;
+  border-radius: 20px;
+  border: 1px solid #f97d26;
+}
+
+.quotes {
+  position: absolute;
+  top: -40px;
+  left: -10px;
+}
+
+.testimonial-description {
+  padding: 64.95px 21.66px 0 31.25px;
+  color: #3B3B3B;
+}
+.testimonial-description .text {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+}
+.testimonial-description .signature {
+  text-align: right;
+  font-weight: 400;
+  line-height: 29px;
+  font-size: 25px;
+}
+
 .menu {
   height: 98px;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
@@ -11306,7 +11345,6 @@ textarea.form-control-lg {
 }
 
 .intro-section {
-  background: url(../../public/dots-8px.png);
   padding: 88px 0 0 0;
 }
 .intro-section span i {
@@ -11316,13 +11354,18 @@ textarea.form-control-lg {
 }
 
 .companies-section {
-  background: url(../../public/dots-8px.png);
   padding: 70px 0 0 0;
 }
 
 .products-section {
-  background: url(../../public/dots-8px.png);
   padding: 250px 0 0 0;
+}
+
+.testimonials-section {
+  padding: 160px 0 0 0;
+}
+.testimonials-section span {
+  max-width: 650px;
 }
 
 /*# sourceMappingURL=style.css.map */

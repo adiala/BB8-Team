@@ -23,3 +23,8 @@ $font-family-card: "Nunito", sans-serif;
 
 //import bootstrap5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//body background pattern
+body {
+    background: url(../../images/dots-8px.png);
+}
